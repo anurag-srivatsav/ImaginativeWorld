@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+   
+    <title>MYSTIC WORLD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+
+    
+</head>
+
+<body>
+    
+
+    <!-- Header -->
+<header class="text-white text-center py-4" style="background: linear-gradient(135deg, #6c63ff, #3b3a99);">
+  <h1 style="font-family: 'Georgia', serif; font-size: 3em; color: #ffcc00; letter-spacing: 2px;">Mysteries Unfolded</h1>
+  <nav>
+      <a href="#stories" class="text-white mx-3" style="font-family: 'Cursive', sans-serif; font-size: 1.2em; transition: transform 0.3s ease, color 0.3s ease;">
+          <span class="icon">&#x1F4D6;</span> Stories
+      </a>
+      <a href="#quotes" class="text-white mx-3" style="font-family: 'Cursive', sans-serif; font-size: 1.2em; transition: transform 0.3s ease, color 0.3s ease;">
+          <span class="icon">&#x1F4AC;</span> Mystic Quotes
+      </a>
+      <a href="#about" class="text-white mx-3" style="font-family: 'Cursive', sans-serif; font-size: 1.2em; transition: transform 0.3s ease, color 0.3s ease;">
+          <span class="icon">&#x1F91D;</span> About
+      </a>
+  </nav>
+</header>
+
+<style>
+  nav a {
+      text-decoration: none;
+      position: relative;
+  }
+
+  nav a:hover {
+      color: #ffcc00; /* Add a warm gold for a mysterious glow */
+      transform: scale(1.1);
+  }
+
+  nav a .icon {
+      margin-right: 8px;
+  }
+
+  header {
+      background: linear-gradient(135deg, #6c63ff, #3b3a99); /* Subtle gradient */
+      border-bottom: 2px solid #ffcc00; /* Gold bottom border for a touch of elegance */
+  }
+</style>
+
+
+    <!-- Hero Section -->
+    
+
+<!-- Hero Section with Auto-Sliding Carousel -->
+<section class="hero text-center text-white py-5" style="background: linear-gradient(135deg, #ff7eb3, #ff758c);">
+    <div id="quotesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#quotesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#quotesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#quotesCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="d-flex flex-column align-items-center justify-content-center" style="height: 200px;">
+            <h2>Welcome to My World of Stories</h2>
+            <p>"Every story has a soul, let's discover them together."</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center justify-content-center" style="height: 200px;">
+            <h2>Imagination Unleashed</h2>
+            <p>"Dive into the world where creativity knows no bounds."</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center justify-content-center" style="height: 200px;">
+            <h2>Storytelling Magic</h2>
+            <p>"Every word weaves a tale, every tale builds a dream."</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#quotesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#quotesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  
+
+    
+    <!-- Story Showcase -->
+    
+     <link rel="stylesheet" href="https://cdnc.heyzine.com/release/heyzine.3.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> 
+
+    
+     
+
+     
+            <!-- story containers -->
+
+
+
+     <section class="container py-4" id="stories">
+      <h1 class="text-center mb-4" style="color: #ffcc00; font-size:40px;" >Welcome to <span id="dynamic-text" style="font-size:40px;"></span> </h1>
+      <!-- <div class="text-container text-center mb-4">
+        <h1 id="dynamic-text" style="color: #ffcc00;"></h1> -->
+    </div>
+      
+        <div class="row g-3 justify-content-center">
+          <!-- Frame 1 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 " data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100">
+             <div class="heyzine-fold  fp-w fp-fh" style="width: 100%; max-width: 310px; min-height: 220px; height: 435px; border-radius: 15px;">
+              <img src="https://cdnc.heyzine.com/flip-book/cover/480cbb85eb.jpg" class="img-front fp-thumb"> 
+              <div class="heyzine-fold-caption"><div><h2 class="fp-title">The Consciousness loop</h2></div>
+               <div><p class="fp-subtitle">can you escape the loop </p> 
+                
+                <div class="heyzine-curl"></div></div> 
+            <a href="https://heyzine.com/flip-book/480cbb85eb.html" target="_blank" class="fp-link"> </a></div></div>
+            
+          
+           
+
+          </div>
+      
+          <!-- Frame 2 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="100">
+             <div class="heyzine-fold  fp-w fp-fh" style="width: 100%; max-width: 310px; min-height: 220px; height: 429px; border-radius: 15px;">
+                <img src="https://cdnc.heyzine.com/flip-book/cover/0defa2d4fd.jpg" class="img-front fp-thumb"> 
+                <div class="heyzine-fold-caption"><div><h2 class="fp-title">Annihilation</h2></div> 
+                <div><p class="fp-subtitle">A love so powerful, it could shape worlds—or unravel them.</p> <div class="heyzine-curl"></div></div>
+             <a href="https://heyzine.com/flip-book/0defa2d4fd.html" target="_BLANK" class="fp-link"></a></div></div>
+             
+
+            
+
+
+          </div>
+      
+          <!-- Frame 3 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100">
+             <div class="heyzine-fold  fp-w fp-fh" style="width: 100%; max-width: 310px; min-height: 220px; height: 429px; border-radius: 15px;">
+              <img src="https://cdnc.heyzine.com/flip-book/cover/eec1bbf939.jpg" class="img-front fp-thumb"> 
+              <div class="heyzine-fold-caption"><div><h2 class="fp-title">Echoes Across Time</h2></div>
+               <div><p class="fp-subtitle"> -The Guardian's Love </p> <div class="heyzine-curl"></div></div> 
+            <a href="https://heyzine.com/flip-book/eec1bbf939.html" target="_BLANK" class="fp-link"></a></div></div>
+            
+
+            
+
+          </div>
+      
+          <!-- Frame 4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="100">
+           
+            <div class="heyzine-fold  fp-w fp-fh" style="width: 100%; max-width: 310px; min-height: 220px; height: 454px; border-radius: ;">
+              <img src="https://cdnc.heyzine.com/flip-book/cover/9e2f92313c.jpg" class="img-front fp-thumb"> <div class="heyzine-fold-caption">
+                <div><h2 class="fp-title">Whispers of the heart</h2></div> <div><p class="fp-subtitle">A journey with you.</p> 
+                  <div class="heyzine-curl"></div></div> 
+            <a href="https://heyzine.com/flip-book/9e2f92313c.html" target="_BLANK" class="fp-link"></a></div></div>
+
+           
+            
+          </div>
+      
+          <!-- Frame 5 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="100">
+            <link rel="stylesheet" href="https://cdnc.heyzine.com/release/heyzine.3.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> 
+            <div class="heyzine-fold  fp-w fp-fh" style="width: 100%; max-width: 310px; min-height: 220px; height: 440px; border-radius: 15px;">
+              <img src="https://cdnc.heyzine.com/flip-book/cover/9afa50ea70.jpg" class="img-front fp-thumb"> 
+              <div class="heyzine-fold-caption"><div><h2 class="fp-title">A Love Story</h2></div> <div><p class="fp-subtitle">Endless L-O-V-E</p> 
+                <div class="heyzine-curl"></div></div>
+            <a href="https://heyzine.com/flip-book/9afa50ea70.html" target="_BLANK" class="fp-link"></a></div></div>
+            
+           
+            
+        </div>
+      </section>
+      
+
+
+
+
+
+
+
+
+
+    
+ <!-- Quotes Section -->
+<section id="quotes" class="py-5  ">
+  <h2 class="text-center mb-4">Mystic Messages</h2>
+  <div class="container">
+      <div class="row">
+          <!-- Quote 1 -->
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p >"Creativity is the art of seeing what others can't imagine."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"Every brushstroke of creativity leaves a mark on eternity."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"Dreams fuel creativity; imagination shapes its wings."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 4 -->
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"Life is a loop; the lessons repeat until they're learned."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 5 -->
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"In the mirror of a parallel universe, your shadow tells a different story."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 6 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"Every choice splits the world into infinite possibilities."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 7 -->
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"Consciousness is the bridge between the seen and the unseen."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 8 -->
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"The deeper you dive within, the more infinite you become."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 9 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"Reality is a reflection of the stories consciousness chooses to tell."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 10 -->
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"A time machine exists within us all—it’s called memory."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 11 -->
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"The future whispers, but only those brave enough can build it."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+          <!-- Quote 12 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
+              <blockquote class="blockquote">
+                  <p>"Time bends for those who dare to write their own timelines."</p>
+                  <footer class="blockquote-footer">Nani</footer>
+              </blockquote>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+    
+
+    
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center" style="background: #ff758c;">
+        <h2>About Me</h2>
+        <p class="text-white">
+
+          I’m a storyteller who thrives in the realms of mystery, crime thrillers, and science fiction. My stories are designed to keep you at the edge of your seat, whether I’m weaving the tender threads of love or plunging you into a high-stakes battle with time, fate, and the unknown.
+          
+          Each story I create is a journey—an invitation to explore worlds where emotions are as powerful as the forces of nature. From the sweet whispers of connection in Whispers of Heart, to the mind-bending twists in Annihilation, my writing is driven by an unyielding desire to uncover hidden truths, challenge perceptions, and push the boundaries of possibility.
+          
+          But my storytelling doesn’t stop there. I’m fascinated by the mysteries of the universe, from the intricate dance of quantum physics to the untold stories hidden in the fabric of time itself. In The Consciousness Loop, I explore the consequences of our actions across lifetimes, while in Echoes Across Time: The Guardian’s Love, I delve into the thrilling battle to protect Earth from extraterrestrial invaders.
+          
+          <br>Curious yet? The question isn't just "What happens next?"—it's "What if the unimaginable could be real?" 
+          <br> Follow me on this ever-evolving journey where love, mystery, and the cosmos collide.</p>
+    </section>
+
+    <!-- Footer -->
+    
+
+    <footer class="text-center py-3 text-white" style="background-color: #6c63ff;">
+      <p>&copy; 2024 My Story Showcase. All Rights Reserved.</p>
+      <p>Follow me: <br>
+          
+      </p>
+      <div class="social mt-3" style="color: white;">
+       
+        <a href="https://x.com/AnuragSrivatsa4" target="_blank" aria-label="Twitter" class="me-3">
+            <i class="fa-brands fab fa-twitter profile-social fa-2x" style="color: white;">
+              
+            </i>
+        </a>
+        <a href="https://www.instagram.com/anuragsrivatsav4/" target="_blank" aria-label="Instagram" class="me-3">
+            <i class="fab fa-instagram profile-social fa-2x" style="color: white;"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anuragsrivatsav/" target="_blank" aria-label="LinkedIn" class="me-3">
+            <i class="fab fa-linkedin profile-social fa-2x" style="color: white;"></i>
+        </a>
+        <a href="mailto:anuragsrivatsav4@gmail.com" aria-label="Email" class="me-3">
+            <i class="fas fa-envelope profile-social fa-2x" style="color: white;"></i>
+        </a>
+        <a href="tel:+919581403857" aria-label="Phone" class="me-3">
+            <i class="fas fa-phone profile-social fa-2x" style="color: white;"></i>
+        </a>
+        <a href="https://maps.app.goo.gl/fcrfgPZMAaGGU8nb8" aria-label="Location" target="_blank" class="me-3">
+            <i class="fas fa-map-marker-alt profile-social fa-2x" style="color: white;"></i>
+        </a>
+        
+    </div>
+    
+    <!-- Include Font Awesome CDN -->
+    
+    
+  </footer>
+      <!-- type writing effect -->
+
+  <script>
+    const lines = [
+    
+    "My Mystic World",
+    "Layers of Secrets",
+    "Where Mystery Unfolds on Every Page",
+    "Whispers of Fate",
+    "Beyond the Horizon",
+    "Eternal Dreams",
+    "Shadows of Time",
+    "Echoes from the Past",
+    "Infinite Realms",
+    "Unseen Forces at Play",
+    "Secrets Beneath the Surface",
+    "Timeless Legends Await",
+    "The Hidden Path Awaits",
+    "Darkened Horizons",
+    "Veil of Illusions",
+    "Twisted Realities",
+    "A Dance of Shadows",
+    "The Path of the Unknown",
+    "The Forgotten Key"
+];
+
+
+
+        let currentLine = 0;
+
+        function animateTypewriter() {
+            const dynamicTextElement = document.getElementById('dynamic-text');
+
+            // Clear current content before adding new line
+            dynamicTextElement.textContent = '';
+
+            // Type out the current line with typing effect
+            let i = 0;
+            const currentText = lines[currentLine];
+            const interval = setInterval(() => {
+                dynamicTextElement.textContent += currentText.charAt(i);
+                i++;
+                if (i === currentText.length) {
+                    clearInterval(interval);
+                    // Move to next line after a delay
+                    setTimeout(() => {
+                        currentLine = (currentLine + 1) % lines.length;
+                        animateTypewriter(); // Trigger the next line
+                    }, 1000); // Adjust delay before switching lines
+                }
+            }, 100); // Speed of typing
+        }
+
+        // Start the animation
+        animateTypewriter();
+</script>
+
+
+
+<title>Floating Message Icon</title>
+     
+<div class="floating-icon" id="floatingIcon">
+    <img src="https://masterbundles.com/wp-content/uploads/2023/08/chat-bot-icon-2-523.png" alt="Message Icon" id="messageIcon">
+</div>
+
+<div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+        <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1728584478/Robo-active.png" alt="Robot Icon" class="header-icon">
+        <div class="header-name">
+            <span class="name">Nani </span>
+            <div class="status">
+                <div class="status-dot"> </div>
+                <span>Online</span>
+            </div>
+        </div>
+        <button class="close-button" id="closeButton">&times;</button>
+    </div>
+    <iframe class="chat-iframe" id="chatIframe" src="https://storybot.ccbp.tech/"></iframe>
+</div>
+
+
+<title>Dark Mode Toggle with Voice</title>
+    
+<!-- Custom images for dark and light mode -->
+<a href="#" class="float" onclick="toggleDarkMode(event)">
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1728584478/Robo-active.png" class="my-float toggle-light" alt="Light Mode Icon">
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1728584478/Robo-sleeping.png" class="my-float toggle-dark" alt="Dark Mode Icon">
+</a>
+
+</head>
+
+<body>
+<!-- Custom images for dark and light mode -->
+<a href="#" class="float" onclick="toggleDarkMode(event)">
+<img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1728584478/Robo-active.png" class="my-float toggle-light" alt="Light Mode Icon">
+<img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1728584478/Robo-sleeping.png" class="my-float toggle-dark" alt="Dark Mode Icon">
+</a>
+
+<script>
+// Function to speak the mode change
+function speak(message) {
+const utterance = new SpeechSynthesisUtterance(message);
+window.speechSynthesis.speak(utterance);
+}
+
+// Function to toggle dark mode
+function toggleDarkMode(event) {
+event.preventDefault();
+const element = document.body;
+element.classList.toggle("dark-mode");
+
+// Store the dark mode preference in localStorage
+const isDarkMode = element.classList.contains("dark-mode");
+localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
+
+// Announce the mode change
+if (isDarkMode) {
+speak("Activating wake-up protocol. Night vision systems online. Ready for an enhanced experience.");
+} else {
+speak("Light Mode engaged. Infusing brilliance into your journey. Welcome to the realm of innovation.");
+}
+}
+
+// Check if dark mode preference is stored and apply it on page load
+document.addEventListener("DOMContentLoaded", function() {
+const darkMode = localStorage.getItem("darkMode");
+const isDarkMode = darkMode ? JSON.parse(darkMode) : false;
+
+const element = document.body;
+if (isDarkMode) {
+element.classList.add("dark-mode");
+} else {
+element.classList.remove("dark-mode");
+}
+});
+</script>
+
+
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- jQuery (required for Bootstrap's JavaScript components) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+  <!-- Include Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+
+</html>
