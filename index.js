@@ -1,12 +1,12 @@
 // Add interactivity (e.g., scrolling, filtering)
-document.querySelectorAll('a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+// document.querySelectorAll('a').forEach(anchor => {
+//     anchor.addEventListener('click', function(e) {
+//         e.preventDefault();
+//         document.querySelector(this.getAttribute('href')).scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//     });
+// });
 
 AOS.init({
     duration: 1200, // Animation duration
