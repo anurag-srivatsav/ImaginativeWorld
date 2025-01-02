@@ -12,8 +12,9 @@ Explore intriguing stories that captivate your attention and engage your mind. H
 # 2. Mystic Quotes
 Here are some mystic quotes to spark your imagination and deepen your thoughts:
 
-"The universe is but a mirror to our consciousness." - Author Name
-"Time is a loop, and we are all players in it." - Author Name
+"The universe is but a mirror to our consciousness." - Anurag
+<br>
+"Time is a loop, and we are all players in it." - Anurag
 
 # 3. Aim
 
