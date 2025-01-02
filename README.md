@@ -1,154 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mysteries Unfolded</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: #f5f5f5;
-        }
+# Mysteries Unfolded: A Storytelling Website
 
-        .hero {
-            background: linear-gradient(135deg, #6c63ff, #3b3a99);
-            color: #ffcc00;
-            text-align: center;
-            padding: 60px 0;
-        }
 
-        .hero h1 {
-            font-family: 'Georgia', serif;
-            font-size: 3em;
-            letter-spacing: 2px;
-        }
+Mysteries Unfolded is an immersive storytelling platform designed to captivate and engage audiences with thought-provoking narratives, mysterious tales, and enchanting quotes. The website features dynamic content, such as a typewriter effect to bring stories to life, along with a curated collection of quotes related to themes like parallel universes, time machines, and consciousness.
 
-        .typewriter {
-            display: inline-block;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 0;
-            animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
-        }
+The platform is built for lovers of storytelling, curious minds, and anyone seeking to explore tales that evoke mystery and wonder. Whether you're an avid reader, a creative writer, or simply someone looking for a fresh perspective, Mysteries Unfolded offers a place to indulge in your imagination and experience the unfolding of mysterious tales.
 
-        @keyframes typing {
-            to {
-                width: 100%;
-            }
-        }
+1. Stories
+Explore intriguing stories that captivate your attention and engage your mind. Here, you'll find stories filled with mystery, adventure, and moments that will leave you thinking.
 
-        @keyframes blink {
-            50% {
-                border-color: transparent;
-            }
-        }
+2. Mystic Quotes
+Here are some mystic quotes to spark your imagination and deepen your thoughts:
 
-        .section-title {
-            font-size: 2em;
-            color: #333;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+"The universe is but a mirror to our consciousness." - Author Name
+"Time is a loop, and we are all players in it." - Author Name
 
-        .section-content {
-            font-size: 1.2em;
-            color: #555;
-            line-height: 1.6;
-        }
+3. Aim
 
-        .img-fluid {
-            margin-bottom: 20px;
-        }
 
-        .blockquote {
-            background: #f9f9f9;
-            padding: 1rem;
-            border-left: 5px solid #ff758c;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
+We aim to bring you stories and quotes that inspire, challenge, and make you ponder the mysteries of the world.
 
-<body>
 
-    <!-- Hero Section with Typewriter Effect -->
-    <section class="hero">
-        <h1>Welcome to <span class="typewriter" id="dynamic-text"></span></h1>
-    </section>
 
-    <!-- Story Section -->
-    <section class="container pb-4">
-        <h2 class="section-title">Stories</h2>
-        <div class="section-content">
-            <p>Explore intriguing stories that captivate your attention and engage your mind. Here, you'll find stories
-                that are filled with mystery, adventure, and moments that will leave you thinking.</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="your-image-1.jpg" class="img-fluid" alt="Image 1">
-                </div>
-                <div class="col-md-4">
-                    <img src="your-image-2.jpg" class="img-fluid" alt="Image 2">
-                </div>
-                <div class="col-md-4">
-                    <img src="your-image-3.jpg" class="img-fluid" alt="Image 3">
-                </div>
-            </div>
-        </div>
-    </section>
+## Logo
+![Logo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735827984/storylogo.ico)
 
-    <!-- Mystic Quotes Section -->
-    <section class="container pb-4">
-        <h2 class="section-title">Mystic Quotes</h2>
-        <div class="section-content">
-            <blockquote>
-                "The universe is but a mirror to our consciousness." - Author
-            </blockquote>
-            <blockquote>
-                "Time is a loop, and we are all players in it." - Author
-            </blockquote>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="container pb-4">
-        <h2 class="section-title">About</h2>
-        <div class="section-content">
-            <p>The **Mysteries Unfolded** is a journey into the unknown, where every twist and turn leads to new
-                discoveries. Join us as we venture into the infinite possibilities of time, space, and consciousness.
-            </p>
-            <p>We aim to bring you stories and quotes that inspire, challenge, and make you ponder the mysteries of the
-                world.</p>
-        </div>
-    </section>
+## Authors
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-        <p>&copy; 2025 Mysteries Unfolded. All Rights Reserved.</p>
-    </footer>
+- [Anurag Srivastav](https://github.com/anurag-srivatsav)
 
-    <!-- Bootstrap JS and Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const dynamicText = document.getElementById('dynamic-text');
-            const text = "Mysteries Unfolded"; // Text to type out
-            let i = 0;
 
-            function typeWriter() {
-                if (i < text.length) {
-                    dynamicText.innerHTML += text.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 100); // Adjust typing speed here
-                }
-            }
-            typeWriter();
-        });
-    </script>
+## 🛠 Skills
+Javascript, HTML, CSS, AI, ML
 
-</body>
 
-</html>
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Demo
+
+Insert gif or link to demo
+
+https://mindbending.netlify.app/
+
+
+![Logo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735828263/dh4tbkjsj97r84iup2dm.jpg)
+
+
+![demo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735828263/s6ns9rmj34klarr02phb.jpg)
+
+![demo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735828263/j6dgzbmqqabnijqjstb8.jpg)
+
+
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** AI, GEN-AI
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
