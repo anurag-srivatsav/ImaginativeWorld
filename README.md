@@ -6,16 +6,16 @@ Mysteries Unfolded is an immersive storytelling platform designed to captivate a
 
 The platform is built for lovers of storytelling, curious minds, and anyone seeking to explore tales that evoke mystery and wonder. Whether you're an avid reader, a creative writer, or simply someone looking for a fresh perspective, Mysteries Unfolded offers a place to indulge in your imagination and experience the unfolding of mysterious tales.
 
-1. Stories
+# 1. Stories
 Explore intriguing stories that captivate your attention and engage your mind. Here, you'll find stories filled with mystery, adventure, and moments that will leave you thinking.
 
-2. Mystic Quotes
+# 2. Mystic Quotes
 Here are some mystic quotes to spark your imagination and deepen your thoughts:
 
 "The universe is but a mirror to our consciousness." - Author Name
 "Time is a loop, and we are all players in it." - Author Name
 
-3. Aim
+# 3. Aim
 
 
 We aim to bring you stories and quotes that inspire, challenge, and make you ponder the mysteries of the world.
