@@ -14,9 +14,7 @@ AOS.init({
     offset: 100 // Trigger offset
 });
 
-
-
-
+AOS.refresh();
 
 
 
