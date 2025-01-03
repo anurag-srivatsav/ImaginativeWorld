@@ -65,7 +65,8 @@ const closeButton = document.getElementById('closeButton');
  
 floatingIcon.addEventListener('click', function() {
     chatWindow.style.display = chatWindow.style.display === 'none' || chatWindow.style.display === '' ? 'flex' : 'none';
-    speak("Hi there! I'm Nani, ready to help. What would you like to talk about?");
+    speak("Greetings, traveler! I am SciBot, your gateway to endless mysteries. What secrets of the universe shall we uncover today?");
+
 });
  
 closeButton.addEventListener('click', function() {
