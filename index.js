@@ -39,10 +39,10 @@ function toggleDarkMode(event) {
 
 // Announce the mode change
     if (isDarkMode) {
-        speak("Activating wake-up protocol. Night vision systems online. Ready for an enhanced experience.");
-    } else {
-        speak("Light Mode engaged. Infusing brilliance into your journey. Welcome to the realm of innovation.");
-    }
+    speak("Dark mode initialized. Portals to unseen realms are opening—venture carefully into the void of imagination.");
+} else {
+    speak("Bright mode engaged. Beams of inspiration connect you to the infinite universe of untold tales");
+}
 }
 
 // Check if dark mode preference is stored and apply it on page load
