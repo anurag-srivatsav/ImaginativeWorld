@@ -311,19 +311,83 @@
     
 
     <!-- About Section -->
-    <section id="about" class="py-5 text-center" style="background: #ff758c;">
-        <h2>About Me</h2>
-        <p class="text-white">
+<section id="about" class="d-flex align-items-center py-5" style="background: linear-gradient(135deg, #6a3093, #a044ff); color: #ffffff; border-radius:25px;">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Circular Image -->
+        
 
-          I’m a storyteller who thrives in the realms of mystery, crime thrillers, and science fiction. My stories are designed to keep you at the edge of your seat, whether I’m weaving the tender threads of love or plunging you into a high-stakes battle with time, fate, and the unknown.
+        <div class="col-md-4 text-center">
+            <div class="image-container">
+              <img src="https://cdn.dribbble.com/users/705556/screenshots/3611029/media/ebf7465cfba1ff6272f4201493e85e5f.gif" alt="About Me" class="rounded-circle" 
+                   style="width: 250px; height: 250px; object-fit: cover; border: 5px solid #00d1ff; box-shadow: 0 0 30px rgba(0, 209, 255, 0.7);">
+            </div>
+          </div>
+  
+        <!-- Storytelling Content -->
+        <div class="col-md-8">
+          <h2 class="mb-3" style="font-family: 'Georgia', serif; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);">
+            About Me
+          </h2>
+          <p style="font-size: 1.1rem; line-height: 1.8; font-family: 'Times New Roman', serif; text-align: justify; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">
+            I’m a storyteller who thrives in the realms of <strong>mystery, crime thrillers, and science fiction</strong>. My stories are designed to keep you at the edge of your seat, weaving tender threads of love and plunging you into high-stakes battles with time, fate, and the unknown.
+          </p>
+          <p style="font-size: 1.1rem; line-height: 1.8; font-family: 'Times New Roman', serif; text-align: justify; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">
+            Each story I create is a journey—an invitation to explore worlds where emotions are as powerful as the forces of nature. From the sweet whispers of connection in <em>Whispers of Heart</em>, to the mind-bending twists in <em>Annihilation</em>, my writing uncovers hidden truths, challenges perceptions, and pushes the boundaries of possibility.
+          </p>
+          <p  style="font-size: 1.1rem; line-height: 1.8; font-family: 'Times New Roman', serif; text-align: justify; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">
+            But my storytelling doesn’t stop there. I’m fascinated by the mysteries of the universe, from the intricate dance of quantum physics to the untold stories hidden in the fabric of time itself. In <strong>The Consciousness Loop</strong>, I explore the consequences of our actions across lifetimes, while in <strong>Echoes Across Time: The Guardian’s Love</strong>, I delve into the thrilling battle to protect Earth from extraterrestrial invaders.
+            </p>
+
+          <p style="font-size: 1.1rem; line-height: 1.8; font-family: 'Times New Roman', serif; text-align: justify; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">
+            Curious yet? The question isn't just <strong>"What happens next?"</strong>—it's <strong>"What if the unimaginable could be real?"</strong> Follow me on this ever-evolving journey where love, mystery, and the cosmos collide.
+          </p>
           
-          Each story I create is a journey—an invitation to explore worlds where emotions are as powerful as the forces of nature. From the sweet whispers of connection in Whispers of Heart, to the mind-bending twists in Annihilation, my writing is driven by an unyielding desire to uncover hidden truths, challenge perceptions, and push the boundaries of possibility.
-          
-          But my storytelling doesn’t stop there. I’m fascinated by the mysteries of the universe, from the intricate dance of quantum physics to the untold stories hidden in the fabric of time itself. In The Consciousness Loop, I explore the consequences of our actions across lifetimes, while in Echoes Across Time: The Guardian’s Love, I delve into the thrilling battle to protect Earth from extraterrestrial invaders.
-          
-          <br>Curious yet? The question isn't just "What happens next?"—it's "What if the unimaginable could be real?" 
-          <br> Follow me on this ever-evolving journey where love, mystery, and the cosmos collide.</p>
-    </section>
+
+
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- Additional Styles -->
+  <style>
+    #about {
+      position: relative;
+      overflow: hidden;
+    }
+  
+    #about::before {
+      content: '';
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 255, 255, 0.2);
+      filter: blur(100px);
+      z-index: 1;
+    }
+  
+    #about::after {
+      content: '';
+      position: absolute;
+      bottom: -50px;
+      right: -50px;
+      width: 300px;
+      height: 300px;
+      background: rgba(255, 204, 0, 0.3);
+      filter: blur(150px);
+      z-index: 1;
+    }
+  </style>
+  
+
+
+
+  
 
     <!-- Footer -->
     
