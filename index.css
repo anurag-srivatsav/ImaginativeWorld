@@ -1,5 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
+    
 }
 
 .hero {
@@ -58,9 +59,15 @@ blockquote {
     white-space: nowrap;
 }
 
-
-
-
+/* about me */
+ 
+.about-section{
+    background: linear-gradient(135deg, #6a3093, #a044ff); 
+    color: #ffffff; 
+    /* border-top-right-radius:25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 0px; */
+}
 
 
 body {
@@ -69,11 +76,27 @@ body {
 
 .dark-mode {
     background-color: #121212;
-    color: #ffffff;
+   color: #ffffff;
     .blockquote{
         background-color: black;
         border-left: 5px solid skyblue;
     }
+    .about-section {
+        background-image: url("https://res.cloudinary.com/dvlgixtg8/image/upload/v1736095813/b4oyext8tagu6vl5pzwx.jpg");
+        height: 100vh; /* Set height to the full viewport */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    @media (max-width: 767.98px) {
+    .about-section {
+      background-image: none; /* No image for small screens */
+      height: auto; /* Adjust height for content */
+      background: linear-gradient(135deg, #6a3093, #a044ff);  /* Optional: fallback color for small devices */
+    }
+  }
+    
     
 
 }
@@ -133,6 +156,7 @@ body:not(.dark-mode) .toggle-light {
 .floating-icon img {
     width: 80px;
     height: 80px;
+    
 }
 
 @keyframes float {
@@ -224,4 +248,8 @@ body:not(.dark-mode) .toggle-light {
     width: 100%;
     height: calc(100% - 60px);
     border: none;
+}
+
+a {
+    pointer-events: auto; /* Ensure links are clickable */
 }
