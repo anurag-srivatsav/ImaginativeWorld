@@ -86,14 +86,14 @@ body {
         height: 100vh; /* Set height to the full viewport */
         background-position: center;
         background-repeat: no-repeat;
-        background: linear-gradient(135deg, #6a3093, #a044ff);
+        
     }
     
     @media (max-width: 767.98px) {
     .about-section {
       background-image: none; /* No image for small screens */
       height: auto; /* Adjust height for content */
-      background-color:pink;  /* Optional: fallback color for small devices */
+      ackground: linear-gradient(135deg, #6a3093, #a044ff);  /* Optional: fallback color for small devices */
     }
   }
     
