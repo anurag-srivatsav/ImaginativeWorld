@@ -86,7 +86,7 @@ body {
         height: 100vh; /* Set height to the full viewport */
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background: linear-gradient(135deg, #6a3093, #a044ff);
     }
     
     @media (max-width: 767.98px) {
