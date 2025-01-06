@@ -81,21 +81,7 @@ body {
         background-color: transparent;
         border-left: 5px solid skyblue;
     }
-    .about-section {
-        background-image: url("https://res.cloudinary.com/dvlgixtg8/image/upload/v1736095813/b4oyext8tagu6vl5pzwx.jpg");
-        height: 100vh; /* Set height to the full viewport */
-        background-position: center;
-        background-repeat: no-repeat;
-        
-    }
     
-    @media (max-width: 767.98px) {
-    .about-section {
-      background-image: none; /* No image for small screens */
-      height: auto; /* Adjust height for content */
-      ackground: linear-gradient(135deg, #6a3093, #a044ff);  /* Optional: fallback color for small devices */
-    }
-  }
     
     
 
