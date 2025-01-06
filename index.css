@@ -61,9 +61,9 @@ blockquote {
 
 /* about me */
  
-.about-section{
-    background: linear-gradient(135deg, #6a3093, #a044ff); 
-    color: #ffffff; 
+.about-me{
+    background-color: white; 
+    color: black; 
     /* border-top-right-radius:25px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 0px; */
@@ -74,6 +74,9 @@ body {
     transition: background-color 0.5s, color 0.5s;
 }
 
+hr{
+    color:white;
+}
 .dark-mode {
     background-color: #121212;
    color: #ffffff;
@@ -81,7 +84,10 @@ body {
         background-color: transparent;
         border-left: 5px solid skyblue;
     }
-    
+    .about-me{
+        background-color: black;
+        color: white;
+    }
     
     
 
