@@ -93,7 +93,7 @@ body {
     .about-section {
       background-image: none; /* No image for small screens */
       height: auto; /* Adjust height for content */
-      background: linear-gradient(135deg, #6a3093, #a044ff);  /* Optional: fallback color for small devices */
+      background-color:pink;  /* Optional: fallback color for small devices */
     }
   }
     
