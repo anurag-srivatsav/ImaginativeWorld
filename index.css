@@ -78,7 +78,7 @@ body {
     background-color: #121212;
    color: #ffffff;
     .blockquote{
-        background-color: black;
+        background-color: transparent;
         border-left: 5px solid skyblue;
     }
     .about-section {
