@@ -36,10 +36,12 @@
 
 <header class="text-white text-center py-4" style="background: linear-gradient(135deg, #6c63ff, #3b3a99); ">
   
+  <!-- Logo -->
+  <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736232932/vmfkwenyfggoebmkao7g.png" alt="Mysteries Unfolded Logo" 
+  style="cursor: pointer;  width: 100px; height: 100px; margin-right: 0;" onclick="playRam()">
   
-  <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736232932/vmfkwenyfggoebmkao7g.png" alt="Mysteries Unfolded Logo" style="  width: 100px; height: 100px; margin-right: 0;">
   <div class="d-flex justify-content-center align-items-center mb-3">
-    <!-- Logo -->
+    
     
     <!-- Title -->
     <h1 style="font-family: 'Georgia', serif; font-size: 3em; color: #ffcc00; letter-spacing: 2px; margin: 0;">Mysteries Unfolded</h1>
@@ -150,7 +152,8 @@
      <section class="container py-4" id="stories">
       <h1 class="text-center mb-4" style="color: #ffcc00; font-size:40px; font-family: 'Playfair Display SC', serif;" >Welcome to <span id="" style="font-size:40px;">My Mystic World</span> 
       
-        <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736231398/qgftguizclr15w8vnil6.png" alt="Mysteries Unfolded Logo" style="width: 100px; height: 130px; margin-right: 0;">  
+        <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/e_improve:outdoor/qgftguizclr15w8vnil6" alt="Mysteries Unfolded Logo" 
+        style="width: 100px; height: 130px; margin-right: 0; cursor:pointer" onclick="playHanumanChalisa()">  
     </h1>
     <!--  this 2 lines of code can be used for type writing effect in future -->
       <!-- <div class="text-container text-center mb-4">
@@ -243,7 +246,8 @@
 <section id="quotes" class="py-5  ">
   <h1 class="text-center mb-4" style="color: skyblue; font-family: 'Cursive', sans-serif;">Mystic Messages
 
-    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736234625/kugjuewz2jqlocjprh4f.png" alt="Mysteries Unfolded Logo" style="width: 80px; height: 80px; margin-right: 0;">  
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736234625/kugjuewz2jqlocjprh4f.png" alt="Mysteries Unfolded Logo" 
+    style="width: 80px; height: 80px; margin-right: 0;cursor: pointer;" onclick="playLittleKrishna()" >  
   </h1>
   </h1> 
   <div class="container">
@@ -341,7 +345,9 @@
 <!-- ABOUT ME Section -->
  <h1 style="font-family: 'Cursive', sans-serif; color:gold; " class="text-center">Meet the Creator
 
-  <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736241058/mygod.png" alt="creater Logo" style=" width: 60px; height: 60px; margin-right: 0;">  
+  <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736241058/mygod.png" alt="creater Logo" 
+  style=" width: 60px; height: 60px; margin-right: 0; cursor: pointer;" 
+  onclick="playDasavatharam()">  
 
  </h1>
     
@@ -354,7 +360,8 @@
           <!-- Circular Image -->
           <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736145137/o6rdqcewdjtzwqai1pwz.webp" 
                alt="About Me" class="rounded-circle" 
-               style="width: 250px; height: 250px; object-fit: cover; border: 5px solid #00d1ff; box-shadow: 0 0 30px rgba(0, 209, 255, 0.7);">
+               style="width: 250px; height: 250px; object-fit: cover; border: 5px solid #00d1ff; box-shadow: 0 0 30px rgba(0, 209, 255, 0.7); cursor:pointer;" 
+               onclick="playKrishnaFlute()">
 
           <!-- Pen Nib Icon -->
           <div style="
@@ -466,7 +473,9 @@
 
           <!-- Image Section -->
           <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
-            <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736227609/ijzesiqimvzi7unxjmcw.png" alt="Contact Us Illustration" class="img-fluid rounded">
+            <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1736227609/ijzesiqimvzi7unxjmcw.png" alt="Contact Us Illustration"
+             class="img-fluid rounded" style="cursor: pointer;" 
+             onclick="playGanesh()">
           </div>
 
       </div>
@@ -585,7 +594,7 @@
 <title>Floating Message Icon</title>
      
 <div class="floating-icon" id="floatingIcon">
-    <img src="https://masterbundles.com/wp-content/uploads/2023/08/chat-bot-icon-2-523.png" alt="Message Icon" id="messageIcon">
+    <img src="https://masterbundles.com/wp-content/uploads/2023/08/chat-bot-icon-2-523.png " alt="Message Icon" id="messageIcon">
 </div>
 
 <div class="chat-window" id="chatWindow">
@@ -621,44 +630,7 @@
 <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1728584478/Robo-sleeping.png" class="my-float toggle-dark" alt="Dark Mode Icon">
 </a>
 
-<!-- <script>
-// Function to speak the mode change
-function speak(message) {
-const utterance = new SpeechSynthesisUtterance(message);
-window.speechSynthesis.speak(utterance);
-}
 
-// Function to toggle dark mode
-function toggleDarkMode(event) {
-event.preventDefault();
-const element = document.body;
-element.classList.toggle("dark-mode");
-
-// Store the dark mode preference in localStorage
-const isDarkMode = element.classList.contains("dark-mode");
-localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
-
-// Announce the mode change
-if (isDarkMode) {
-speak("Dark mode initialized. Portals to unseen realms are opening—venture carefully into the void of imagination.");
-} else {
-speak("Bright mode engaged. Beams of inspiration connect you to the infinite universe of untold tales");
-}
-}
-
-// Check if dark mode preference is stored and apply it on page load
-document.addEventListener("DOMContentLoaded", function() {
-const darkMode = localStorage.getItem("darkMode");
-const isDarkMode = darkMode ? JSON.parse(darkMode) : false;
-
-const element = document.body;
-if (isDarkMode) {
-element.classList.add("dark-mode");
-} else {
-element.classList.remove("dark-mode");
-}
-});
-</script> -->
 
 
 
