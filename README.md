@@ -41,6 +41,7 @@ https://mindbending.netlify.app/
 ![Logo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1736318356/qbu45zlieqlei1bq5fr3.gif)
 
 
+![Demo of the App](https://res.cloudinary.com/dvlgixtg8/image/upload/v1736318356/qbu45zlieqlei1bq5fr3.gif)
 
 
 
