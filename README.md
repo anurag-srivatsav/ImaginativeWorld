@@ -38,12 +38,9 @@ Insert gif or link to demo
 https://mindbending.netlify.app/
 
 
-![video](https://res.cloudinary.com/dvlgixtg8/video/upload/v1736317252/mzaxpvhhvlicej2tkpf7.mp4)
+![video](https://res.cloudinary.com/dvlgixtg8/image/upload/v1736318356/qbu45zlieqlei1bq5fr3.gif)
 
 
-<video src="https://res.cloudinary.com/dvlgixtg8/video/upload/v1736317252/mzaxpvhhvlicej2tkpf7.mp4" controls>
-    Your browser does not support the video tag.
-</video>
 
 
 
