@@ -38,7 +38,7 @@ Insert gif or link to demo
 https://mindbending.netlify.app/
 
 
-![video](https://res.cloudinary.com/dvlgixtg8/image/upload/v1736318356/qbu45zlieqlei1bq5fr3.gif)
+![Logo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1736318356/qbu45zlieqlei1bq5fr3.gif)
 
 
 
