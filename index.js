@@ -8,13 +8,18 @@
 //     });
 // });
 
+// AOS.init({
+//     duration: 1200, // Animation duration
+//     once: true, // Animation occurs only once
+//     offset: 100 // Trigger offset
+// });
+
 AOS.init({
-    duration: 1200, // Animation duration
-    once: true, // Animation occurs only once
-    offset: 100 // Trigger offset
+  offset: 120, // Adjust the offset for animations
+  duration: 600, // Speed of animations
+  once: true, // Animation runs only once
+  mirror: false, // Prevents the animation from repeating
 });
-
-
 
 
 
