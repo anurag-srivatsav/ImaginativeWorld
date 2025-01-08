@@ -31,10 +31,19 @@ The Mysteries Unfolded website includes an interactive chatbot designed to help 
 3. **Writing Insights**: Curious users can inquire about the author's writing style, inspiration, and any hidden messages in the narratives.
 4. **Main Use**: This chatbot is designed to enhance the user experience by offering personalized assistance and making it easier for users to explore the rich collection of storytelling content on Mysteries Unfolded.
 
+## Demo
+
+Insert gif or link to demo
+
+https://mindbending.netlify.app/
 
 
-## Logo
-![Logo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735827984/storylogo.ico)
+![Logo](https://res.cloudinary.com/dvlgixtg8/video/upload/v1736317252/mzaxpvhhvlicej2tkpf7.mp4)
+
+
+
+
+
 
 
 ## Authors
@@ -55,20 +64,9 @@ Javascript, HTML, CSS, AI, ML
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
-## Demo
 
-Insert gif or link to demo
-
-https://mindbending.netlify.app/
-
-
-![Logo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735828263/dh4tbkjsj97r84iup2dm.jpg)
-
-
-![demo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735828263/s6ns9rmj34klarr02phb.jpg)
-
-![demo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735828263/j6dgzbmqqabnijqjstb8.jpg)
-
+## Logo
+![Logo](https://res.cloudinary.com/dvlgixtg8/image/upload/v1735827984/storylogo.ico)
 
 
 ## Tech Stack
